@@ -1,0 +1,98 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+#hero-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/86/Powell_River_Aerial_2004.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.town-name {
+    background: #3c6e71;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.town-intro {
+    background: #284b63;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 15px
+}
+
+#main-sec {
+    background-color: #D9D9D9;
+    margin-top: 0;
+    padding: 15px 0px 10px 0px;
+    color: #353535;
+}
+
+#activ-sec {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.activ-pic {
+    border-radius: 50px;
+    height: 100px;
+}
+
+h4 {
+    font-size: 13px
+}
+
+p {
+    font-size: 12px;
+}
+
+.activ {
+    padding: 0 20px;
+    width: 33%;
+}
+
+#guide-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    margin: 20px auto;
+    background-color: #353535;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border-bottom: 4px solid black; 
+    padding: 0 10px;
+}
+
+.guide-pic {
+    width: 200px;
+    border-radius: 10px;
+}
